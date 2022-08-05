@@ -1,0 +1,73 @@
+body {
+    margin: 20px 25px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    height: 25px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: grey;
+}
+
+span {
+    color: red;
+}
+
+label[for=label] {
+    font-size: x-small;
+}
+
+label[for=email],
+[for=name] {
+    font-weight: 600;
+}
+
+.fa {
+    padding-top: 5px;
+    color: gold;
+}
+
+.container-fluid {
+    margin-left: 0px;
+    /* height: auto; */
+}
+
+input[type=radio] {
+    border: none;
+    margin-left: 25px;
+    width: 20px;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid rgb(204, 202, 202);
+    background-color: rgb(247, 241, 241);
+}
+
+#grey {
+    background-color: rgb(247, 241, 241);
+    border-radius: 4px;
+    height: 40px;
+    padding: 7px 0px 0px;
+}
+
+#white {
+    border-radius: 4px;
+    height: 40px;
+    padding: 7px 0px 0px;
+}
+
+#product1 {
+    border-radius: 4px;
+    height: 55px;
+    padding: 7px 0px 0px;
+}
+
+#product2 {
+    background-color: rgb(247, 241, 241);
+    border-radius: 4px;
+    height: 55px;
+    padding: 7px 0px 0px;
+}
